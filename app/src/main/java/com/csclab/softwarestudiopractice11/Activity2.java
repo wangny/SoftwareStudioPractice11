@@ -43,10 +43,8 @@ public class Activity2 extends Activity{
         private float x, y; //The x, y position that image exist
         private int mx, my; // The distance from original position to finger dragging
 
-        /** To Do:
-         * (1) Handle different touch events in onTouch method
-         * (2) You can use v.layout() to change dinosaur's position
-         * Hint: The event you may encounter: ACTION_DOWN & ACTION_MOVE **/
+
+
 
         @Override
         public boolean onTouch(View v, MotionEvent event) {

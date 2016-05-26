@@ -34,10 +34,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void sendName(){
 
-        /** To Do:
-         * (1) Use intent and Bundle to pass string
-         * (2) Change activity to Activity2
-         * **/
+
+
         Intent intent = new Intent();
         intent.setClass(MainActivity.this, Activity2.class);
         Bundle bundle = new Bundle();
